@@ -31,14 +31,5 @@ Our goal is to enhance travel experiences by:
 - Safe and encrypted online transactions.
 - Reduces concerns around payment security.
 
-## 🛠️ Technologies Used
-> *(Update based on your tech stack, e.g. HTML, CSS, JavaScript, PHP, MySQL, React, Node.js, etc.)*
-
-- Frontend: ...
-- Backend: ...
-- Database: ...
-- APIs: ...
-
-## 📁 Folder Structure
-> *(Optional - customize based on your code structure)*
+Notes : This project is one of the assignment we had in UMT . Kindly this is all the prototype .
 
