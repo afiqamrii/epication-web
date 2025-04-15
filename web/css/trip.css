@@ -1,0 +1,181 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 Jun 2024, 10:39:31 pm
+    Author     : Fareed Dinn
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face{
+    font-family: sf;
+    src:url("font/SFRegular");
+}
+.trip-form{
+    height:auto;
+    width:60%;
+    margin:20%;
+    margin-top:10%;
+    margin-bottom:10%;
+    padding:1%;
+    border:0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius:10px;
+}
+.trip-detail{
+    margin-left:30px;
+}
+
+.trip-input{
+    font-family: 'Poppins', sans-serif;
+    padding:10px;
+    font-size:1.2vw;
+    margin-left:30px;
+    margin-top:15px;
+    width:30vw;
+    border-radius: 5px;
+    border:0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.trip-input2{
+    font-family: 'Poppins', sans-serif;
+    padding:10px;
+    font-size:1.2vw;
+    margin-left:30px;
+    margin-top:15px;
+    width:17vw;
+    border-radius: 5px;
+    border:0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.trip-input1{
+    padding:10px;
+    font-size:1.2vw;
+    margin-left:30px;
+    margin-top:15px;
+    width:30vw;
+    border-radius: 5px;
+    border:0;
+    height:40vh;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.trip-detail td{
+    font-size:1.2vw;
+}
+.btn{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:25px;
+}
+.trip-btnsub{
+    margin-top:30px;
+    padding:8px;
+    font-family: 'Poppins', sans-serif;
+    border:0;
+    border-radius:5px;
+    font-size:16px;
+    margin-right:20px;
+}
+.trip-btnsub1{
+    margin-top:30px;
+    padding:8px;
+    font-family: 'Poppins', sans-serif;
+    border:0;
+    border-radius:5px;
+    font-size:16px;
+    /*    margin-right:20px;*/
+    color:black;
+    background-color: #f0f0f0;
+    border-radius:5px;
+}
+
+.display-trip{
+    height:auto;
+    width:90%;
+    margin:5%;
+    margin-top:10%;
+    padding:1%;
+    border:0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius:10px;
+}
+.gambar-display{
+    /*    width:170px;*/
+    /*    border-radius: 50%;*/
+    text-align:center;
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+.display-trip{
+/*    font-family: sf;*/
+}
+.display-trip td{
+    padding-left:40px;
+    line-height:1vw;
+    font-size: 1vw;
+}
+span{
+    font-weight: 0;
+}
+/*.every-item{
+    border-bottom:1px solid black;
+}*/
+/*.every-item tr {
+    border-bottom: 1px solid #ccc; 
+}*/
+
+.btn-book-now{
+    padding:10px;
+    background-color:grey;
+    width:3vw;
+    height:2vw;
+    border-radius:7px;
+    text-decoration: none;
+    color:white;
+}
+.btn-book-now:hover{
+    padding:10px;
+    background-color:white;
+    width:3vw;
+    height:2vw;
+    border-radius:7px;
+    text-decoration: none;
+    color:grey;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/*.table-wrapper {
+    overflow-x: auto;  Enable horizontal scrolling on smaller screens 
+    max-width: 100%;  Ensure table wrapper doesn't exceed viewport width 
+}
+
+table {
+    width: 100%;  Table takes full width of its container 
+    border-collapse: collapse;  Merge table borders 
+    table-layout: fixed;  Fixed layout to prevent table from expanding 
+}
+
+table, th, td {
+    border: 1px solid #ddd;  Basic table border 
+    padding: 8px;  Padding for cells 
+    text-align: left;  Align text left 
+}
+
+th {
+    background-color: #f2f2f2;  Header background color 
+    color: #333;  Header text color 
+}
+
+@media (max-width: 768px) {
+     Adjust table layout for smaller screens 
+    table {
+        font-size: 14px;  Decrease font size for readability 
+    }
+}*/
+
